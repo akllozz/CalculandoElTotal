@@ -32,6 +32,15 @@ body {
     background-position: center ;
 }
 
+.card h4{
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+}
+
+
 .card input {
     width: 80%;
     border-radius: 5px;
@@ -48,7 +57,7 @@ body {
 }
 
 .mas {
-    padding: 4px 8.5px;
+    padding: 4px 8.3px;
 }
 
 .menos {
@@ -61,15 +70,19 @@ body {
     box-sizing: border-box;
 }
 
-.total-section .color {
+.total-section  {
     display: flex;
 }
 
-.total-section .color div{
+.total-section div{
     margin-left: 10px;
     width: 20px;
     height: 20px;
     background-color: black;
     border-radius: 50%;
     border: solid 1px;
+}
+
+p{
+    font-size: .9375rem;
 }
